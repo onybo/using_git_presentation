@@ -24,11 +24,8 @@ Det viktigste er å kjøre
 
 ---
 ## Men
-- Vi fikk det ikke til å fungere på web claims
-- Clonet uten historie
-- Planen var å beholde repository i TFS for historie
-- Men vi har ikke tilgang?
-- Foreløpig ikke noe stort problem
+- GIT TFS kan være problematisk på noen TFS repositories
+- Clone uten historie kan være alternativ
 
 ***
 
