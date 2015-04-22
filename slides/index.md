@@ -60,15 +60,15 @@ http://www.sourcetreeapp.com/
 
 ---
 #### GIT Add Commit and Push
-![git add commit push](images/git-add-commit-push.png)
+![git add commit push](images/gitaddcommitpush.png)
 
 ---
 #### GIT Fetch Merge Pull
-![git fetch merge pull](images/git_fetch_merge_pull.png)
+![git fetch merge pull](images/gitfetchmergepull.png)
 
 ---
 #### GIT Branches
-![git Branches](images/git_branches.png)
+![git Branches](images/gitbranches.png)
 
 ---
 
@@ -80,7 +80,7 @@ http://www.sourcetreeapp.com/
 - godt alternativ til SourceTree om en ikke har node foldere i prosjektet
 https://visualstudiogallery.msdn.microsoft.com/27f6d087-9b6f-46b0-b236-d72907b54683
 
-![GitFlow extension](images/GitFlow_extension.png)
+![GitFlow extension](images/GitFlowextension.png)
 
 ***
 
