@@ -56,11 +56,11 @@ http://www.sourcetreeapp.com/
 
 ---
 #### GIT Clone
-![git clone](images/git_clone.png)
+![git clone](images/git-clone.png)
 
 ---
 #### GIT Add Commit and Push
-![git add commit push](images/git_add_commit_push.png)
+![git add commit push](images/git-add-commit-push.png)
 
 ---
 #### GIT Fetch Merge Pull
