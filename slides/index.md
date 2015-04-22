@@ -56,7 +56,7 @@ http://www.sourcetreeapp.com/
 
 ---
 #### GIT Clone
-![git clone](images/git-clone.png)
+![git clone](images/gitclone.png)
 
 ---
 #### GIT Add Commit and Push
