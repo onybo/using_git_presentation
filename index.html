@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>How to using</title>
-    <meta name="description" content="How to use F# to create azure websites and use Azure .NET SDK from F#">
+    <title>Git intro</title>
+    <meta name="description" content="Short presentation about GIT and Git flow">
     <meta name="author" content="Olav Nybø">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -47,9 +47,63 @@
 
 <ul>
 <li>Clone from TFS</li>
-<li>Tools
+<li>Git flow</li>
+<li>Tools og Git 101
 <ul>
-<li>test</li>
+<li>Source tree</li>
+<li>GitFlow for Visual Studio</li>
+</ul></li>
+</ul>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h3>Migration TFS -> GIT</h3>
+
+<h4>Oppskrift her</h4>
+
+<p><a href="https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md">https://github.com/git-tfs/git-tfs/blob/master/doc/usecases/migrate_tfs_to_git.md</a></p>
+
+<p>Det viktigste er å kjøre
+    git tfs clone collection --with-branches</p>
+
+</section>
+
+<section >
+
+<h2>Men</h2>
+
+<ul>
+<li>Vi fikk det ikke til å fungere på web claims</li>
+<li>Clonet uten historie</li>
+<li>Planen var å beholde repository i TFS for historie</li>
+<li>Men vi har ikke tilgang?</li>
+<li>Foreløpig ikke noe stort problem</li>
+</ul>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h1>Git flow</h1>
+
+<ul>
+<li>En mulig branchingstrategi
+<ul>
+<li>Centralized, Feature Branch, Forking</li>
+</ul></li>
+<li>Vincent Dressen, 2010
+<ul>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/">http://nvie.com/posts/a-successful-git-branching-model/</a></li>
 </ul></li>
 </ul>
 
@@ -68,6 +122,95 @@
 <p><img src="images/gitflow-release.svg" alt="git flow release" /></p>
 
 <p style="font-size: 8px;"> source: &nbsp; https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow </p>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h2>SourceTree</h2>
+
+<p><a href="http://www.sourcetreeapp.com/">http://www.sourcetreeapp.com/</a></p>
+
+</section>
+
+<section >
+
+<h4>Open repository</h4>
+
+<p><img src="images/Sourcetree-open.png" alt="source tree open" /></p>
+
+</section>
+
+<section >
+
+<h4>GIT Clone</h4>
+
+<p><img src="images/git_clone.png" alt="git clone" /></p>
+
+</section>
+
+<section >
+
+<h4>GIT Add Commit and Push</h4>
+
+<p><img src="images/git_add_commit_push.png" alt="git add commit push" /></p>
+
+</section>
+
+<section >
+
+<h4>GIT Fetch Merge Pull</h4>
+
+<p><img src="images/git_fetch_merge_pull.png" alt="git fetch merge pull" /></p>
+
+</section>
+
+<section >
+
+<h4>GIT Branches</h4>
+
+<p><img src="images/git_branches.png" alt="git Branches" /></p>
+
+</section>
+
+<section >
+
+<h3>SourceTree commit and push</h3>
+
+<p><img src="images/sourcetree_commit.png" alt="SourceTree commit" /></p>
+
+</section>
+
+<section >
+
+<h2>GitFlow for Visual Studio</h2>
+
+<ul>
+<li>godt alternativ til SourceTree om en ikke har node foldere i prosjektet
+<a href="https://visualstudiogallery.msdn.microsoft.com/27f6d087-9b6f-46b0-b236-d72907b54683">https://visualstudiogallery.msdn.microsoft.com/27f6d087-9b6f-46b0-b236-d72907b54683</a></li>
+</ul>
+
+<p><img src="images/GitFlow_extension.png" alt="GitFlow extension" /></p>
+
+</section>
+
+</section>
+
+<section >
+
+<section >
+
+<h3>Erfaringer</h3>
+
+<ul>
+<li>Mye kjappere</li>
+<li>npm og windows er ikke gode venner</li>
+<li>En bedre utvikler hverdag</li>
+</ul>
 
 </section>
 
